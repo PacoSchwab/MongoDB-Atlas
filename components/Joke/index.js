@@ -34,7 +34,7 @@ export default function Joke({ onSubmit, onDelete }) {
         </Button>
         <Button onClick={onDelete} disabled={isEditMode}>
           <span role="img" aria-label="A cross indicating deletion">
-            Delete
+            🗑
           </span>
         </Button>
       </div>
